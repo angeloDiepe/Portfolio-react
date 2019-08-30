@@ -1,0 +1,7 @@
+.App {
+  text-align: center;
+  display:grid;
+  grid-template-columns:100%;
+  grid-template-rows: 10vh 100vh 100vh 100vh 100vh 95vh 5vh;
+  background-color:#011627;
+}

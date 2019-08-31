@@ -1,7 +1,7 @@
-.desc-container{
+.skills-container{
 	display: flex;
-	background-color: transparent;
-	z-index:2;
+	background-color: #cc6222;
+	z-index:3;
 	justify-content: center;
 	align-items:center;
 	position: sticky;
@@ -9,7 +9,7 @@
 	height: 100%;
 	width: 100%;
 }
-.desc-wrapper{
+.skills-wrapper{
 	position: relative;
 	top: -30px;
 	height: 92%;
@@ -20,24 +20,24 @@
 	border-radius: 10px 10px 0px 10px;
 	box-shadow: 0px 2px 10px 4px rgba(0,0,0,0.4);
 }
-#desc-title{
+#skills-title{
 	display: inline-block;
 	margin:50px auto;
 	color:#cc6222;
 	font-weight: bolder;
 	font-size: 28px;
 }
-#desc-title::before{
+#skills-title::before{
 	content: "-----";
 	letter-spacing:-6px;
 	margin-right: 10px;
 }
-#desc-title::after{
+#skills-title::after{
 	content: "-----";
 	letter-spacing:-6px;
 	margin-left: 02px;
 }
-.desc-body{
+.skills-body{
 	width: 85%;
 	height: auto;
 	margin:auto;

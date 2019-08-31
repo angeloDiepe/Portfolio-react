@@ -2,6 +2,7 @@ import React from 'react';
 import Nav from "../../components/Nav/Nav.js";
 import Intro from "../../components/Intro/Intro.js";
 import Desc from "../../components/Desc/Desc.js";
+import Skills from "../../components/Skills/Skills.js";
 import './App.css';
 import Particles from "react-particles-js";
 
@@ -25,8 +26,8 @@ class App extends React.Component {
         <Nav/>
         <Intro/>
         <Desc/>
-             {/*<Skills/>
-                <Projects/>
+        <Skills/>
+             {/*<Projects/>
                 <Contacts/>
                 <Footer/>*/}
       </div>

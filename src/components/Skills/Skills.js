@@ -1,13 +1,13 @@
-import React,{useEffect} from 'react';
-import "./Desc.css";
+import React from 'react';
+import "./Skills.css";
 import imgLogo from "../../assets/logo.png";
 
-const Desc = (props) => {
+const Skills = (props) => {
 	return (
-		<div className="desc-container">
-			<div className="desc-wrapper">
-				<span id="desc-title">Description</span>
-				<p className="desc-body">
+		<div className="skills-container">
+			<div className="skills-wrapper">
+				<span id="skills-title">Skills</span>
+				<p className="skills-body">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
 				Mollitia sequi illum labore quia quasi fugiat, 
 				dolore saepe quam molestias maxime? Natus architecto debitis odit quos,
@@ -26,4 +26,4 @@ const Desc = (props) => {
 		)
 }
 
-export default Desc;
+export default Skills;

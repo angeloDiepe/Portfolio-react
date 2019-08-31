@@ -4,11 +4,13 @@
   grid-template-columns:100%;
   grid-template-rows: 70px 100vh 100vh 100vh 100vh 95vh 5vh;
   background-color:#011627;
+  width: 100%;
+  height: auto;
 }
 .particles{
 	position: fixed;
-	width: 100vw;
-	height: 100vh;
+	width: 100%;
+	height: 100%;
 	top:0;
 	left: 0;
 	z-index: 0;

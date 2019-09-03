@@ -16,11 +16,14 @@ import linux from "../../assets/linux.png";
 import nodejs from "../../assets/nodejs.png";
 
 const Skills = (props) => {
+	let Particle = React.createElement(props.children.type,Object.assign({},props.children.props,{className:"particle-skills"}),props.children.props.children);
+	console.log(Particle)
 	return (
 		<div className="skills-container">
 			<div className="skills-wrapper">
+			{Particle}
 				<span id="skills-title">Skills</span>
-				<p className="skills-body">
+				<div className="skills-body">
 					<div>
 						<img src={html5}/> 
 					</div>	
@@ -63,7 +66,7 @@ const Skills = (props) => {
 					<div  id="nodejs">	
 						<img src={nodejs} width="100px" />
 					</div>	
-				</p>	
+				</div>	
 			</div>
 		</div>
 		)

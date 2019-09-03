@@ -8,11 +8,13 @@ import reactjs from "../../assets/reactjs.png";
 import heroku from "../../assets/heroku.png";
 
 const Projects = (props) => {
+	let Particle = React.createElement(props.children.type,Object.assign({},props.children.props,{className:"particle-skills"}),props.children.props.children);
 	return (
 		<div className="projects-container">
 			<div className="projects-wrapper">
+			{Particle}
 				<span id="projects-title">Projects</span>
-				<p className="projects-body" id="style-7">
+				<div className="projects-body" id="style-7">
 					<div className="project-box">
 						<div>
 							<img src={html5}/> 
@@ -43,7 +45,7 @@ const Projects = (props) => {
 							<img src={heroku}/>
 						</div>			
 					</div>
-				</p>	
+				</div>	
 			</div>
 		</div>
 		)

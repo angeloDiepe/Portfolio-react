@@ -2,10 +2,16 @@
   text-align: center;
   display:grid;
   grid-template-columns:100%;
-  grid-template-rows: 70px calc( 100vh - 70px ) calc( 100vh - 70px ) calc( 100vh - 70px ) calc( 100vh - 70px ) calc( 100vh - 70px )  5vh;
+  grid-template-rows:
+   calc( 100vh - 70px )
+   calc( 100vh - 70px ) 
+   calc( 100vh - 70px ) 
+   calc( 100vh - 70px )  
+   calc( 100vh - 70px )  
+   ;
+  grid-row-gap: 100vh;
   background-color:#011627;
   width: 100%;
-  height: auto;
 }
 .particles{
 	position: fixed;

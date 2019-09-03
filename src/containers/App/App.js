@@ -4,6 +4,8 @@ import Intro from "../../components/Intro/Intro.js";
 import Desc from "../../components/Desc/Desc.js";
 import Skills from "../../components/Skills/Skills.js";
 import Projects from "../../components/Projects/Projects.js";
+import Contacts from "../../components/Contacts/Contacts.js";
+import Aux from "../hoc/Aux.js"
 import './App.css';
 import Particles from "react-particles-js";
 
@@ -22,16 +24,21 @@ const particlesOptions = {
 class App extends React.Component {
   render(){ 
     return (
-      <div className="App">
-      <Particles params={{particlesOptions}} className="particles"/>
+      <Aux>
+        <Particles params={{particlesOptions}} className="particles"/>
         <Nav/>
-        <Intro/>
-        <Desc/>
-        <Skills/>
-        <Projects/>
-                {/*<Contacts/>
-                <Footer/>*/}
-      </div>
+        <div className="App">
+          <Intro/>
+          <Desc/>
+          <Skills>
+            <Particles params={{particlesOptions}} className="particles"/>
+          </Skills>
+           <Projects>
+            <Particles params={{particlesOptions}} className="particles"/>
+          </Projects>
+          <Contacts/>
+        </div>
+      </Aux>
     );
   }
 }

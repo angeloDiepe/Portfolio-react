@@ -92,7 +92,7 @@ textarea.contact-input{
 	justify-content: center;
 	align-items: center;
 	box-shadow: 0px 2px 10px 4px rgba(0,0,0,0.4);
-	transition: all 0.25s ease-out;
+	transition: all 0.2s ease-out;
 }
 #send:hover{
 	border:1px solid rgba(255,255,255,0.7);
